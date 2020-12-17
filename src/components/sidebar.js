@@ -13,6 +13,7 @@ const sidebar = () => {
 				<SectionHeading title="form" />
 				<ul>
 					<SidebarItem linkUrl="/button" linkName="Buttons" />
+					<SidebarItem linkUrl="/input" linkName="Input" />
 				</ul>
 			</div>
 		</div>

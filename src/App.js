@@ -5,6 +5,7 @@ import Home from "./pages/home";
 import Sidebar from "./components/sidebar";
 import Navbar from "./components/navbar";
 import Button from "./pages/button";
+import Input from "./pages/input";
 
 function App() {
 	return (
@@ -20,6 +21,9 @@ function App() {
 						</Route>
 						<Route path="/button">
 							<Button />
+						</Route>
+						<Route path="/input">
+							<Input />
 						</Route>
 					</Switch>
 				</div>
